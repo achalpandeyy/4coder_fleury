@@ -75,7 +75,7 @@ default_font_hinting = true;
 default_font_aa_mode = "8bit";
 
 // User
-user_name = "rjf";
+user_name = "achal";
 
 // Keyboard AltGr setting
 lalt_lctrl_is_altgr = false;

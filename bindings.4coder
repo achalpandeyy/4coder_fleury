@@ -1,6 +1,10 @@
 
 keys_global =
 {
+    // NOTE(achal): Navigation
+    {"jump_to_definition", "T", "Control"},
+    {"jump_to_definition_at_cursor", "T", "Control", "Shift"},
+    
     // NOTE(rjf): Meta
     { "exit_4coder" ,                             "F4",      "Alt"                     },
     { "keyboard_macro_start_recording" ,          "U",      "Control"                  },
@@ -118,8 +122,8 @@ keys_file =
     { "list_all_substring_locations_case_insensitive", "F", "Alt" },
     { "goto_line",                   "G", "Control" },
     { "list_all_locations_of_selection",  "G", "Control", "Shift" },
-    { "search_identifier",           "T", "Control" },
-    { "list_all_locations_of_identifier", "T", "Control", "Shift" },
+    // { "search_identifier",           "T", "Control" },
+    // { "list_all_locations_of_identifier", "T", "Control", "Shift" },
     
     // NOTE(rjf): Replace
     { "replace_in_range",            "A", "Control" },
